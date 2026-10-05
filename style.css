@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* display: inline-block cho liên kết điều hướng */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* max-width: khung nội dung không rộng quá 1000px, căn giữa */
+section {
+    max-width: 1000px;
+    margin: 20px auto 0;
+}
+
+/* display: inline-block cho 3 cột */
+.box {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    /* SỬA LỖI: xem giải thích */
+    vertical-align: top;
+    /* các cột thẳng hàng ở mép trên */
+}
+
+/* display: block cho footer (mặc định) */
+footer {
+    display: block;
+    max-width: 1000px;
+    margin: 20px auto 0;
+    padding: 10px;
+    background-color: #eee;
+}
